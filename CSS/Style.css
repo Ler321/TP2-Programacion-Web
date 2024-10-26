@@ -1,7 +1,14 @@
 body{
     background: black url("../Imagenes/3398604.jpg")fixed;
 }
+@font-face {
+    font-family: 'Petrona' ;
+    src: url(../Fuentes/Petrona/Petrona-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 h1,h2,h3,p{
     color: #ffffff;
-    font:italic bold Arial,Verdana,Tahoma,Sans-Serif;
+    font-family: 'Petrona';
+    font-weight: normal;
 }

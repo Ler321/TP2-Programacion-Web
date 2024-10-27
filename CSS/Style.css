@@ -12,3 +12,127 @@ h1,h2,h3,p{
     font-family: 'Petrona';
     font-weight: normal;
 }
+.boss{
+    height: 200px; 
+    width: 250px;
+    margin: auto;
+    cursor: pointer;
+    transition: 2s;
+}
+.boss:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.JefesAcantiladosAulladores{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesBocasucia{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesCrucesOlvidados{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesSenderoVerde{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesParamosFungicos{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesCanalesReales{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesCañonNublado{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesCiudadDeLasLagrimas{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesCuencaAntigua{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesCumbreDeCristal{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesJardinesDeLaReina{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesLaColmena{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesLimiteDelReino{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesNidoProfundo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesTierrasDeReposo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.JefesHogarDeDioses{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+

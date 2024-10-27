@@ -1,13 +1,29 @@
 body{
-    background: black url("../Imagenes/3398604.jpg")fixed;
+    background: black url("../Imagenes/Void.jpg")fixed no-repeat;
+    background-size: cover;
+}
+.fondomedio{
+    background: url("../Imagenes/Fondo_Jefes.png") repeat-y 50% ;
+    background-size: cover;
+    background-position: middle;
+    padding: 0px 200px;
+    /*margin:  0px 40px;
+    border: 0px 40px;*/
+    
+    
 }
 @font-face {
     font-family: 'Petrona' ;
     src: url(../Fuentes/Petrona/Petrona-Regular.ttf);
     font-weight: normal;
-    font-style: normal;
+    font-style: bold;
 }
-h1,h2,h3,p{
+h1,h2,h3{
+    color: #ffffff;
+    font-family: 'Petrona';
+    font-weight: bold;
+}
+p{
     color: #ffffff;
     font-family: 'Petrona';
     font-weight: normal;
@@ -17,11 +33,13 @@ h1,h2,h3,p{
     width: 250px;
     margin: auto;
     cursor: pointer;
-    transition: 2s;
+    transition: 0.2s;
+    /*background: #000000 url("../Imagenes/Fondo_Jefes") fixed;*/
+
 }
 .boss:hover{
     transform: scale(1.1);
-    transition: 2s;
+    transition: 0.2s;
 }
 .JefesAcantiladosAulladores{
 

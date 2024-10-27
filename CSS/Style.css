@@ -2,16 +2,7 @@ body{
     background: black url("../Imagenes/Void.jpg")fixed no-repeat;
     background-size: cover;
 }
-.fondomedio{
-    background: url("../Imagenes/Fondo_Jefes.png") repeat-y 50% ;
-    background-size: cover;
-    background-position: middle;
-    padding: 0px 200px;
-    /*margin:  0px 40px;
-    border: 0px 40px;*/
-    
-    
-}
+
 @font-face {
     font-family: 'Petrona' ;
     src: url(../Fuentes/Petrona/Petrona-Regular.ttf);

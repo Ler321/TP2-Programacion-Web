@@ -99,6 +99,13 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax (280px,1fr));
 }
 
+.JefesAcantiladosAulladores {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
 .JefesBocasucia{
 
     display: flex;

@@ -25,7 +25,7 @@ body{
     z-index: -1;
 }
 .almas {
-position: relative;
+position: fixed;
 display: flex;
 }
 
@@ -104,43 +104,208 @@ grid-template-columns: repeat(auto-fit, minmax (280px,1fr));
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 .JefesBocasucia{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
+.JefesBocasucia .img {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+justify-content: center;
+max-width: 1100px;
+width: 90%;
+margin:  40px auto;
+}
+.JefesBocasucia .jefe {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.JefesBocasucia  h2 {
+    margin-bottom: 20px;
+    }
+
+.JefesBocasucia .jefe h3 {
+margin-bottom: 10px;
+}
+
+
+.JefesBocasucia .jefe p {
+    margin-bottom: 20px;
+    }
+
+    .JefesBocasucia .jefe img {
+        width: 200px;
+        height: 250px;
+        }
 .JefesCrucesOlvidados{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+.JefesCrucesOlvidados .img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  0px auto;
+
+    }
+    .JefesCrucesOlvidados .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesCrucesOlvidados  h2 {
+        margin-bottom: 40px;
+        text-align: center;
+        }
+    
+    .JefesCrucesOlvidados .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesCrucesOlvidados .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesCrucesOlvidados .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
 .JefesSenderoVerde{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
-.JefesParamosFungicos{
+
+.JefesSenderoVerde .img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  0px auto;
+
+    }
+    
+    .JefesSenderoVerde .jefe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .JefesSenderoVerde .jefe h3 {
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    .JefesSenderoVerde .jefe img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .JefesSenderoVerde .jefe p {
+        text-align: center;
+    }
+
+    .JefesParamosFungicos{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+.JefesParamosFungicos .img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    padding-left:20%;
+    }
+    .JefesParamosFungicos .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesParamosFungicos  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesParamosFungicos .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesParamosFungicos .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesParamosFungicos .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
+
 .JefesCanalesReales{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+.JefesCanalesReales .img {
+display: flex;
+gap: 20px;
+justify-content: center;
+max-width: 1100px;
+width: 90%;
+margin:  40px auto;
+}
+.JefesCanalesReales .jefe {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.JefesCanalesReales  h2 {
+    margin-bottom: 20px;
+    }
+
+.JefesCanalesReales .jefe h3 {
+margin-bottom: 10px;
+}
+
+
+.JefesCanalesReales .jefe p {
+    margin-bottom: 20px;
+    }
+
+    .JefesCanalesReales .jefe img {
+        width: 200px;
+        height: 250px;
+        }
+
 .JefesdeCañonNublado{
 
     display: flex;
@@ -148,68 +313,321 @@ grid-template-columns: repeat(auto-fit, minmax (280px,1fr));
     align-items: center;
     margin-bottom: 150px;
 }
+
 .JefesCiudadDeLasLagrimas{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+.JefesCiudadDeLasLagrimas .img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    }
+    .JefesCiudadDeLasLagrimas .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesCiudadDeLasLagrimas  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesCiudadDeLasLagrimas .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesCiudadDeLasLagrimas .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesCiudadDeLasLagrimas .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
+
+
+
+
 .JefesCuencaAntigua{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+.JefesCuencaAntigua .img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    }
+    .JefesCuencaAntigua .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesCuencaAntigua  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesCuencaAntigua .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesCuencaAntigua .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesCuencaAntigua .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
+
 .JefesCumbreDeCristal{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+.JefesCumbreDeCristal .img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    }
+    .JefesCumbreDeCristal .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesCumbreDeCristal  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesCumbreDeCristal .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesCumbreDeCristal .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesCumbreDeCristal .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
+
+
+
+
 .JefesJardinesDeLaReina{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+.JefesJardinesDeLaReina .img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    }
+    .JefesJardinesDeLaReina .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesJardinesDeLaReina  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesJardinesDeLaReina .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesJardinesDeLaReina .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesJardinesDeLaReina .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
+
+
+
+
 .JefesLaColmena{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+.JefesLaColmena img {
+    padding-left: 4%;
+}
+
+
 .JefesLimiteDelReino{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+
+.JefesLimiteDelReino .img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  0px auto;
+
+    }
+    
+    .JefesLimiteDelReino .jefe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .JefesLimiteDelReino .jefe h3 {
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    .JefesLimiteDelReino .jefe img {
+        width: 200px;
+        height: 250px;
+    }
+
+
+    .JefesLimiteDelReino .jefe p {
+        text-align: center;
+    }
+
+
 .JefesNidoProfundo{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+.JefesNidoProfundo .img {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    }
+    .JefesNidoProfundo .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesNidoProfundo  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesNidoProfundo .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesNidoProfundo .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesNidoProfundo .jefe img {
+            width: 200px;
+            height: 250px;
+            }
+
+
+
 .JefesTierrasDeReposo{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
+
+
 .JefesHogarDeDioses{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 150px;
 }
 
 
+
+.JefesHogarDeDioses .img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1100px;
+    width: 90%;
+    margin:  40px auto;
+    }
+    .JefesHogarDeDioses .jefe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .JefesHogarDeDioses .jefecentro {
+        grid-column: 1/3;
+        justify-self: center;
+        padding-left: 50%;
+    }
+    .JefesHogarDeDioses  h2 {
+        margin-bottom: 20px;
+        }
+    
+    .JefesHogarDeDioses .jefe h3 {
+    margin-bottom: 10px;
+    }
+    
+    
+    .JefesHogarDeDioses .jefe p {
+        margin-bottom: 20px;
+        }
+    
+        .JefesHogarDeDioses .jefe img {
+            width: 200px;
+            height: 250px;
+            }

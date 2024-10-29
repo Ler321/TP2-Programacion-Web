@@ -62,11 +62,13 @@ h1,h2,h3{
     color: #ffffff;
     font-family: 'Petrona';
     font-weight: bold;
+    text-align: center;
 }
 p{
     color: #ffffff;
     font-family: 'Petrona';
     font-weight: normal;
+    text-align: center;
 }
 .boss{
     height: 200px; 
@@ -193,4 +195,5 @@ p{
     align-items: center;
     margin-bottom: 150px;
 }
+
 

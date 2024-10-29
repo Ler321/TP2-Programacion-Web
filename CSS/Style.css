@@ -66,16 +66,17 @@ display: flex;
     font-style: bold;
 }
 h1,h2,h3{
-    color: #ffffff;
+    color: black;
     font-family: 'Petrona';
     font-weight: bold;
     text-align: center;
 }
 p{
-    color: #ffffff;
+    color: rgb(231, 125, 54);
     font-family: 'Petrona';
     font-weight: normal;
     text-align: center;
+    z-index: 2;
 }
 .boss{
     height: 200px; 

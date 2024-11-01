@@ -59,6 +59,15 @@ display: flex;
     transform: translateY(-10vh) scale(1);
 }
 }
+
+.Redes {
+    justify-content: center;
+    align-items: center;
+    padding-left: 75%;
+}
+
+
+
 @font-face {
     font-family: 'Petrona' ;
     src: url(../Fuentes/Petrona/Petrona-Regular.ttf);

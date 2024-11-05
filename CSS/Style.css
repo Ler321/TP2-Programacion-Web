@@ -2,12 +2,45 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+
+}
+#Menu{
+	height: 70px;
+	background: #232629;
+    border: 5px solid;
+    border-color: #929090;
+    border-radius: 25px 25px 25px 25px;
+    font: 10px 'petrona';
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
-body{
-    background: rgb(44, 41, 41);
-    background-size: cover;
-    min-height: 100%;
+#Menu ul{
+	list-style: none;
+}
+
+#Menu ul li{
+	float: left;
+
+	margin: 5px 10px;
+	
+	
+}
+
+#Menu a{
+	text-decoration: none;
+	color: #dce7e7;
+	font: bold italic 15px 'petrona';
+}
+
+#Menu a:hover{
+	color:#c79c10;
+}
+
+#Menu a:active{
+	font: 18px 'petrona';
+	color:#bb9824;
 }
 
 .container {
@@ -60,6 +93,38 @@ display: flex;
 }
 }
 
+#Contenido{
+    margin: 50px;
+	padding: 10px;
+    border: 5px #dce7e7 solid;
+    border-radius: 30px;
+    background: #3d3939
+}
+
+#Contenido p{
+    margin: 5px;
+    padding: 5px;
+    color: #bb8219;
+}
+
+#Contenido #Inicio p{
+    margin: 5px;
+    padding: 5px;
+    color: #dce7e7;
+    }
+
+#mapa{
+
+    position:  relative center;
+    /*No pude centrar el mapa, podes intentarlo vos roman?*/
+}
+
+body{
+    background: rgb(59, 56, 56) fixed
+    url(../imagenes/Fondos/Void.jpg);
+    background-size: cover;
+}
+
 .Redes {
     justify-content: center;
     align-items: center;
@@ -81,7 +146,7 @@ h1,h2,h3{
     text-align: center;
 }
 p{
-    color: rgb(231, 125, 54);
+    color: rgb(223, 217, 213);
     font-family: 'Petrona';
     font-weight: normal;
     text-align: center;

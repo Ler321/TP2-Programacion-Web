@@ -11,10 +11,9 @@ box-sizing: border-box;
     border-color: #929090;
     border-radius: 18px 18px 18px 18px;
     font: 10px 'petrona';
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     text-align: center;
-    position: fixed;
     z-index: 100;
 }
 
@@ -24,9 +23,7 @@ box-sizing: border-box;
 
 #Menu ul li{
 	float: left;
-
 	margin: 5px 10px;
-	
 	
 }
 
@@ -75,13 +72,13 @@ box-sizing: border-box;
     cursor: pointer;
   }
   
-  ul li .fa-brands {
+  .Redes ul li .fa-brands {
     font-size: 2em;
     -webkit-text-stroke: 1px var(--variable);
     color: transparent;
   }
   
-  ul li::before {
+  .Redes ul li::before {
     content: '';
     position: absolute;
     top: 0;
@@ -99,23 +96,23 @@ box-sizing: border-box;
     
   }
   
-  ul li:hover:before {
+  .Redes ul li:hover:before {
     height: 100%;
   }
   
-  ul li:nth-child(1)::before {
+  .Redes ul li:nth-child(1)::before {
     content: '\e61b';
   }
   
-  ul li:nth-child(2)::before {
+ .Redes ul li:nth-child(2)::before {
     content: '\f16d';
   }
   
-  ul li:nth-child(3)::before {
+  .Redes ul li:nth-child(3)::before {
     content: '\f09a';
   }
   
-  ul li:nth-child(4)::before {
+  .Redes ul li:nth-child(4)::before {
     content: '\f167';
   }
 
@@ -782,3 +779,39 @@ margin-bottom: 10px;
             width: 200px;
             height: 250px;
             }
+#Pie{
+
+    font: 10px 'petrona';
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+#Pie p{
+
+color: #edf7f7;
+
+}
+#Pie ul{
+	list-style: none;
+}
+
+#Pie ul li{
+	float: left;
+	margin: 5px 10px;
+	
+}
+
+#Pie a{
+	text-decoration: none;
+	color: #edf7f7;
+	font: bold italic 'petrona';
+}
+
+#Pie a:hover{
+	color:#c79c10;
+    text-decoration: underline;
+}
+
+#Pie a:active{
+	color:#bb9824;
+}

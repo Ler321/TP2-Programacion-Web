@@ -93,7 +93,7 @@ box-sizing: border-box;
     line-height: 50px;
     font-size: 2em;
     color: var(--variable);
-    
+    pointer-events: none;
   }
   
   .Redes ul li:hover:before {

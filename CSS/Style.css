@@ -188,10 +188,11 @@ display: flex;
     color: #dce7e7;
     }
 
-#mapa{
+#mapa {
 
-    position:  relative center;
-    /*No pude centrar el mapa, podes intentarlo vos roman?*/
+    position: relative;
+    text-align: center;
+    
 }
 
 body{
@@ -232,7 +233,7 @@ p{
     margin: auto;
     cursor: pointer;
     transition: 0.2s;
-    /*background: #000000 url("../Imagenes/Fondo_Jefes") fixed;*/
+    
 
 }
 .boss:hover{
@@ -254,6 +255,12 @@ grid-template-columns: repeat(auto-fit, minmax (280px,1fr));
     align-items: center;
     margin-bottom: 10px;
 }
+
+.JefesAcantiladosAulladores .img{
+
+    text-align: center;
+}
+
 .JefesBocasucia{
 
     display: flex;
@@ -462,6 +469,11 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 }
 
+.JefesdeCañonNublado .img{
+
+    text-align: center;
+}
+
 .JefesCiudadDeLasLagrimas{
 
     display: flex;
@@ -636,10 +648,12 @@ margin-bottom: 10px;
     align-items: center;
     margin-bottom: 10px;
 }
-.JefesLaColmena img {
-    padding-left: 4%;
-}
 
+.JefesLaColmena .img img{
+    display: block;
+    margin: 0 auto;
+    margin-left: 450px;
+}
 
 .JefesLimiteDelReino{
 
@@ -731,6 +745,10 @@ margin-bottom: 10px;
     align-items: center;
     margin-bottom: 10px;
 }
+.JefesTierrasDeReposo .img{
+
+    text-align: center;
+}
 
 
 .JefesHogarDeDioses{
@@ -781,7 +799,7 @@ margin-bottom: 10px;
             }
 #Pie{
 
-    font: 10px 'petrona';
+    font: 15px 'petrona';
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -789,16 +807,7 @@ margin-bottom: 10px;
 #Pie p{
 
 color: #edf7f7;
-
-}
-#Pie ul{
-	list-style: none;
-}
-
-#Pie ul li{
-	float: left;
-	margin: 5px 10px;
-	
+    
 }
 
 #Pie a{
